@@ -1,0 +1,353 @@
+/**Para poder realizar las grid */
+* {
+	box-sizing: border-box;
+}
+
+#titulo-del-proyecto {
+	font-family: 'Golos Text', sans-serif;
+	display: block;
+ 	background-color: lightblue;	
+ 	position: relative;
+  }
+
+body {
+	background-color: #d9e9eb;
+	width: 90%;
+	max-width: 900px;
+	margin: 2em auto;
+	font: .9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+.contenedor> div {
+	border-radius: 5px;
+	padding: 10px;
+	background-color: rgb(207,232,220);
+	border: 2px solid rgb(79,185,227);
+}
+
+.contenedor1> div {
+	border-radius: 5px;
+	padding: 10px;
+	background-color: rgb(207,232,220);
+	border: 2px solid rgb(79,185,227);
+}
+/**
+#boton_modooscuro {
+	font-family: 'Tilt Neon', cursive;
+	color: white;
+	background-color: grey;
+	border: black 2px solid;
+	position: relative;
+}
+
+#boton_claro {
+	font-family: 'Tilt Neon', cursive;
+	color: black;
+	background-color: lightblue;
+	border: blue 2px solid;
+	position: relative;
+}
+
+*/
+
+.contenedor-botones-dark-clare {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+#información-personal {
+	color: black;
+	background-color: #9e9e9e6b;
+	font-family: 'Merriweather', serif;
+	border-radius: 5px;
+    padding: 3px;
+}
+
+.nombre-completo {
+	color: black;
+	background-color: #8ccd3063;
+	font-family: 'Merriweather', serif;	
+    padding: 3px;
+    border:3px #d8ffd8 solid;
+}
+
+.nacionalidad {
+	color: white;
+	background-color: #385e00d1;
+	font-family: 'Merriweather', serif;	
+    padding: 3px;
+    border:3px #12ff1247 solid;
+}
+
+.dni {
+	color: black;
+	background-color: #8ccd3063;
+	font-family: 'Merriweather', serif;	
+    padding: 3px;
+    border:3px #d8ffd8 solid;
+}
+
+.fecha-de-nacimiento{
+	color: white;
+	background-color: #385e00d1;
+	font-family: 'Merriweather', serif;	
+    padding: 3px;
+    border:3px #12ff1247 solid;
+}
+
+
+.edad {
+	color: black;
+	background-color: #8ccd3063;
+	font-family: 'Merriweather', serif;	
+    padding: 3px;
+    border:3px #d8ffd8 solid;
+}
+
+.direccion {
+	color: white;
+	background-color: #385e00d1;
+	font-family: 'Merriweather', serif;	
+    padding: 3px;
+    border:3px #12ff1247 solid;
+}
+
+.localidad {
+	color: black;
+	background-color: #8ccd3063;
+	font-family: 'Merriweather', serif;	
+    padding: 3px;
+    border:3px #d8ffd8 solid;
+}
+
+.telefono {
+	color: white;
+	background-color: #385e00d1;
+	font-family: 'Merriweather', serif;	
+    padding: 3px;
+    border:3px #12ff1247 solid;
+}
+
+.correo-electronico  {
+	color: black;
+	background-color: #8ccd3063;
+	font-family: 'Merriweather', serif;	
+    padding: 3px;
+    border:3px #d8ffd8 solid;
+}
+
+#educacion {
+	color: black;
+    background-color: #9e9e9ee6;
+	font-family: 'Merriweather', serif;
+	border-radius: 5px;
+    padding: 3px;
+}
+
+.edu-pri-secu {
+	color: white;
+    background-color: #bfa300f5;
+	font-family: 'Merriweather', serif;
+	padding: 3px;
+    border: 3px #ffe86e6e solid;
+}
+
+.diplomatura {
+	color: black;
+    background-color: #ffdc1096;
+	font-family: 'Merriweather', serif;
+	padding: 3px;
+    border: 3px #4e420263 solid;
+}
+
+.curso-tirdas {
+    color: white;
+    background-color: #bfa300f5;
+	font-family: 'Merriweather', serif;
+	padding: 3px;
+    border: 3px #ffe86e6e solid;
+}
+
+.curso-intensivo {
+	color: black;
+    background-color: #ffdc1096;
+	font-family: 'Merriweather', serif;
+	padding: 3px;
+    border: 3px #4e420263 solid;
+}
+
+#experiencia_laboral {
+	color: black;
+	background-color: #9e9e9e6b;
+	font-family: 'Merriweather', serif;
+	border-radius: 5px;
+    padding: 3px;
+}
+
+.empresa-servicio {
+	color: white;
+    background-color: #d59e2d;
+	font-family: 'Merriweather', serif;
+	padding: 3px;
+    border: 3px #ff85025e solid;
+}
+
+.cuit {
+	color: black;
+    background-color: #ffb64a;
+	font-family: 'Merriweather', serif;
+	padding: 3px;
+    border: 3px #d59e2d7a solid;
+}
+
+.correo-empresa {
+    color: white;
+    background-color: #d59e2d;
+	font-family: 'Merriweather', serif;
+	padding: 3px;
+    border: 3px #ff85025e solid;
+}
+
+.fecha-de-ingreso {
+	color: black;
+    background-color: #ffb64a;
+	font-family: 'Merriweather', serif;
+	padding: 3px;
+    border: 3px #d59e2d7a solid;
+}
+
+.tarea {
+	color: white;
+    background-color: #d59e2d;
+	font-family: 'Merriweather', serif;
+	padding: 3px;
+    border: 3px #ff85025e solid;
+}
+
+#agradecimientos {
+	color: black;
+	background-color: #9e9e9ee6;
+	font-family: 'Merriweather', serif;
+	border-radius: 5px;
+    padding: 3px;
+}
+
+.agradecimiento {
+	color: black;
+	font-family: 'Phudu', cursive;
+}
+
+.contenedor-link-ancla {
+	color: black;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+
+#titulo-información-personal {
+	color: black;
+	background-color: #7fed0075;
+	font-family: 'Merriweather', serif;
+	border-radius: 5px;
+    padding: 8px;
+}
+
+#titulo_educacion {
+	color: black;
+	background-color: #ffeb3ba1;
+	font-family: 'Merriweather', serif;
+	border-radius: 5px;
+    padding: 8px;
+}
+
+#titulo_experiencia_laboral {color: black;
+	background-color: #ff98008c;
+	font-family: 'Merriweather', serif;
+	border-radius: 5px;
+    padding: 8px;
+}
+
+#titulo_agradecimientos {color: black;
+	background-color: #01628f63;
+	font-family: 'Merriweather', serif;
+	border-radius: 5px;
+    padding: 8px;	
+}
+
+
+
+
+/** Media Queries para que los elementos se adapten al dispositivo */
+    @media only screen and (max-width: 767px) {
+	img {
+		max-width: 100%; height: auto		
+	  }
+	.nombre-completo {
+		display: grid;
+    grid-template-columns: 2fr 2fr;
+	}
+
+	.nacionalidad {
+		display: grid;
+    grid-template-columns: 2fr 2fr;
+	}
+
+	.fecha-de-nacimiento {
+		display: grid;
+    grid-template-columns: 2fr 2fr;
+	}
+
+	.dni {
+		display: grid;
+    grid-template-columns: 2fr 2fr;
+	}
+
+	.edad {
+		display: grid;
+    grid-template-columns: 2fr 2fr;
+	}
+
+	.direccion {
+		display: grid;
+    grid-template-columns: 2fr 2fr;
+	}
+
+	.localidad {
+		display: grid;
+    grid-template-columns: 2fr 2fr;
+	}
+
+	.telefono {
+		display: grid;
+    grid-template-columns: 2fr 2fr;
+	}
+
+	.correo-electronico {
+		display: grid;
+    grid-template-columns: 2fr 2fr;
+	}
+    
+    .edu-pri-secu {
+    	display: grid;
+    grid-template-columns: 2fr 2fr;
+    } 
+
+    .graduacion-info-2 {
+    	display: grid;
+    grid-template-columns: 1fr;
+    }
+ 
+  }
+    
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+	img {
+		max-width: 100%; height: auto
+	  }
+	}
+	
+    
+    @media only screen and (min-width: 1024px) {
+    	img {
+    		max-width: 100%; height: auto
+    	}
+    }
